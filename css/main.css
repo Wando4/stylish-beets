@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #c9b5ab;
   font-family: PT Serif, serif;
+  font-size: .8rem;
   line-height: 1.5;
 }
 
@@ -15,9 +16,6 @@ img {
 h1, h2 {
   color: #222;
   font-family: "PT Sans", sans-serif;
-}
-
-h1, blockquote {
   font-size: 1.5rem;
 }
 
@@ -31,4 +29,40 @@ nav {
   font-size: 1.125rem;
   font-weight: normal;
   font-family: "PT Sans", sans-serif;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+a,
+a:link {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+.em {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+blockquote {
+  font-size: 1.5rem;
+}
+
+cite {
+  font-size: .8rem;
+}
+
+.varieties {
+  list-style-type: lower-greek;
+}
+
+dt {
+  font-weight: bold;
 }
