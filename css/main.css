@@ -16,23 +16,19 @@ h1{
 }
 
 a {
-
+  text-decoration: none;
+  font-style: normal;
+  color: #8f2440;
+  font-weight: bold;
 }
+
+a:hover {
+  text-decoration: underline;
+  color: #3f1622;
+}
+
 img {
   width: 100%;
-}
-
-h1, h2 {
-  color: #222;
-  font-family: "PT Sans", sans-serif;
-}
-
-h1 {
-  font-size: 1.5rem;
-}
-
-figure {
-  text-align: center;
 }
 
 figcaption {
