@@ -27,6 +27,10 @@ a:hover {
   color: #3f1622;
 }
 
+h1 + ol {
+  list-style: none;
+}
+
 img {
   width: 100%;
 }
