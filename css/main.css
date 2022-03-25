@@ -32,46 +32,28 @@ img {
 }
 
 figcaption {
-  font-style: italic;
+  font-style: oblique;
 }
 
-main figure + p {
+.line {
   font-weight: bold;
+  color: #222;
   font-size: 1.125em;
-}
-
-nav {
-  font-size: 1.125rem;
-  font-weight: bold;
-  font-family: "PT Sans", sans-serif;
-}
-
-nav ol {
-  list-style-type: none;
-}
-
-a{
-  color: #8f2440;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #3f1622;
-  text-decoration: underline;
-}
-
-.em {
-  font-size: 1.125rem;
-  font-weight: bold;
 }
 
 blockquote {
   font-size: 1.5rem;
-  font-style: italic;
+  font-style: normal;
 }
 
 cite {
   font-size: .8rem;
+  font-style: italic;
+}
+
+h2 {
+  color: #3f1622;
+  font-weight: bold;
 }
 
 .varieties {
@@ -80,4 +62,12 @@ cite {
 
 dt {
   font-weight: bold;
+}
+
+.last-list {
+  list-style-type: disc;
+}
+
+.italic {
+  font-style: italic;
 }
