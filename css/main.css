@@ -64,10 +64,10 @@ dt {
   font-weight: bold;
 }
 
-.last-list {
+.end-list {
   list-style-type: disc;
 }
 
-.italic {
+.scale {
   font-style: italic;
 }
