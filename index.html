@@ -5,13 +5,14 @@
   <title>Beetst</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/PT+Sans?query=pt+sans">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/PT+Serif?query=pt+serif">
 </head>
 <body>
 
   <header>
-    <h1>Beetroot (<i>Beta vulgaris</i>)</h1>
     <nav>
+      <h1>Beetroot (<i>Beta vulgaris</i>)</h1>
       <ol>
         <li><a href="#">Common varieties</a></li>
         <li><a href="#">Nutritional information</a></li>
@@ -20,59 +21,60 @@
     </nav>
   </header>
   <main>
+
     <figure>
-      <img src="images/beets.jpg" alt="Image of beet bundle">
+      <img src="images/beets.jpg" alt="">
       <figcaption>A bundle of organic beets from a local farm food co-op program.</figcaption>
     </figure>
-    <p class="em"><strong><time datetime="P55D">55</time> to <time datetime="P65D">65</time> days are needed from germination to harvest of the root.</strong></p>
-    <p>The usually deep purple roots of <b>beetroot</b> are eaten either grilled, boiled, or roasted as a cooked vegetable, cold as a salad after cooking and adding oil and vinegar, or raw and shredded either alone or combined with any salad vegetable.</p>
-    <p>In fact, Jim Halpert once said this about beets,<q> "Fact, bears eat beets. Bears, beets, <i>Battlestar Galactica</i>."</q></p>
 
-    <blockquote>
-      <p>I have some <em>weird</em> habits. For instance, I love beets. Show me a salad bar and I will clean them out of their beets.</p>
-      <footer><cite>- Chris Pratt</cite></footer>
-    </blockquote>
+    <article>
+      <p class="line"><time class="line" datetime="2022-04-06">55 to 65 days</time> are needed from germination to harvest of the root.</strong></p>
+      <p>The usually deep purple roots of <b>beetroot</b> are eaten either grilled, boiled, or roasted as a cooked vegetable, cold as a salad after cooking and adding oil and vinegar, or raw and shredded either alone or combined with any salad vegetable.</p>
+      <p>In fact, <cite>Jim Halpert</cite> once said this about beets, <q>"Fact, bears eat beets. Bears, beets, <i>Battlestar Galactica</i>"</q>.</p>
+      <blockquote>
+        <p>I have some <em>weird</em> habits. For instance, <strong>I love beets</strong>. Show me a salad bar and I will clean them out of their beets.</p>
+        <cite>- Chris Pratt</cite>
+      </blockquote>
+    </article>
 
-    <h2>Common varieties</h2>
-    <ol class="varieties">
-      <li>Albino</li>
-      <li>Bull’s Blood</li>
-      <li>Chioggia</li>
-      <li>Detroit Dark Red</li>
-      <li>Early Wonder</li>
-    </ol>
+    <article>
+      <h2>Common varieties</h2>
+      <ol class="varieties">
+        <li>Albino</li>
+        <li>Bull’s Blood</li>
+        <li>Chioggia</li>
+        <li>Detroit Dark Red</li>
+        <li>Early Wonder</li>
+      </ol>
 
-    <h2>Nutritional information</h2>
-    <p>Serving size:<data value="100">100 g</data></p>
-    <dl>
-      <dt>Energy:</dt>
-      <dd><data value="180">180 kJ</data></dd>
-      <dt>Carbohydrates:</dt>
-      <dd><data value="9.96">9.96g</data></dd>
-      <dt>Fat:</dt>
-      <dd><data value="0.18">0.18 g</data></dd>
-      <dt>Protein:</dt>
-      <dd><data value="1.68">1.68 g</data></dd>
-    </dl>
+      <h2>Nutritional information</h2>
+      <p class="italic">Serving size: <data class="italic" value="100 g">100 g</data></p>
+      <dl>
+        <dt>Energy:</dt>
+        <dd><data value="180">180 kJ</data></dd>
+        <dt>Carbohydrates:</dt>
+        <dd><data value="9.96">9.96g</data></dd>
+        <dt>Fat:</dt>
+        <dd><data value="0.18">0.18 g</data></dd>
+        <dt>Protein:</dt>
+        <dd><data value="1.68">1.68 g</data></dd>
+      </dl>
 
-    <aside>
-      <h2>Tags</h2>
-      <ul>
-        <li>Crimson</li>
-        <li>Awesome</li>
-        <li>Pickle-able</li>
-        <li>Vegetable!</li>
-        <li>Delicious</li>
-      </ul>
-    </aside>
+      <aside>
+        <h2>Tags</h2>
+        <ul>
+          <li class="end-list">Crimson</li>
+          <li class="end-list">Awesome</li>
+          <li class="end-list">Pickle-able</li>
+          <li class="end-list">Vegetable!</li>
+          <li class="end-list">Delicious</li>
+        </ul>
+      </aside>
+    </article>
+    <footer>
+      <p><small>Source: <a href="#">Wikipedia</a>; Last modified: <time datetime="2014-08-30">Aug 30, 2014</time></small></p>
+    </footer>
+
   </main>
-
-  <footer>
-    <small>Source:
-      <a href="#">Wikipedia</a>; Last modified:
-      <time datetime="2014-08-30">Aug 30, 2014</time>
-    </small>
-  </footer>
-
 </body>
 </html>
